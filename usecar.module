@@ -1,6 +1,8 @@
 [Rule]
 DOMAIN-KEYWORD,patentexam,DIRECT
 FINAL,DIRECT
+[Proxy Group]
+手动选择 = select,赔钱机场,use=true,interval=86400,timeout=5,url=http://www.gstatic.com/generate_204
 
 [URL Rewrite]
 ^https:\/\/app2.patentexam.com.* direct
