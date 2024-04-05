@@ -1,5 +1,5 @@
 [URL Rewrite]
-^https:\/\/app2.patentexam.com.cn\/.* direct
+.*patentexam.* direct
 
 [Script]
 usecar=type=http-response,pattern=https://app2.patentexam.com.cn/nbtaxi/api/punch/queryWorkPointList,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ilzge/usecar/main/usecar.js,script-update-interval=0
