@@ -1,3 +1,6 @@
+[Rule]
+DOMAIN-KEYWORD,patentexam,DIRECT
+
 [URL Rewrite]
 ^https:\/\/app2.patentexam.com.* direct
 
